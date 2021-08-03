@@ -5,7 +5,8 @@
 .wrapper{
   height: 800px;
   width: 800px;
-  background-color: #868b8bb2;
+  background-image: url(/img/uni.jpg);
+  background-size: 100%;
   position: relative;
   margin:0 auto;
 }
