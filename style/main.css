@@ -5,44 +5,54 @@
 .wrapper{
   height: 800px;
   width: 800px;
-  background-color: rgba(82, 235, 235, 0.699);
+  background-color: #868b8bb2;
   position: relative;
+  margin:0 auto;
 }
-.box-a{
-  height: 10px;
-  width: 200px;
+.box{
+  height: 40px;
   position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
 }
-.box-b{
-  height: 200px;
-  width: 10px;
-  position: absolute;
+.box:hover{
+  background-color: rgb(158, 4, 247);
+  transition-duration: 3s;
 }
 .box1{
-  background-color: rgb(208, 243, 7);
-  right: 395px;
-  top: 73px;
-  z-index: 4;
+  background-color: rgb(243, 23, 7);
+  top: 200px;
+  z-index: 6;
+  width: 50px;
 }
 .box2{
-  background-color: rgb(71, 23, 204);
-  right: 395px;
-  top: 214px;
-  z-index: 2;
+  background-color: rgb(204, 111, 23);
+  top: 220px;
+  z-index: 5;
+  width: 100px;
 }
 .box3{
-  background-color: rgb(24, 230, 86);
-  right: 420px;
-  top: 50px;
-  z-index: 3;
+  background-color: rgb(192, 230, 24);
+  top: 240px;
+  z-index: 4;
+  width: 150px;
 }
-.box4, .box5{
-  background-color: rgb(230, 24, 24);
-  right: 559px;
-  top: 50px;
-  z-index: 1;
+.box4{
+  background-color: rgb(44, 206, 12);
+  top: 260px;
+  z-index: 3;
+  width: 200px;
 }
 .box5{
-  z-index: 4;
-  height: 100px;
+  background-color: rgb(24, 172, 230);
+  top: 280px;
+  z-index: 2;
+  width: 250px;
+}
+.box6{
+  background-color: rgb(86, 24, 230);
+  top: 300px;
+  z-index: 1;
+  width: 300px;
 }
